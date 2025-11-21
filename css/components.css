@@ -1,0 +1,468 @@
+/* --- Navigation --- */
+.navbar {
+    background-color: #ffffffd9 !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo_menu {
+    height: 100px;
+    border-radius: 5%;
+}
+
+.text_logo {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+.nav-link {
+    color: #000 !important;
+    font-weight: 600;
+    padding: 0.5rem 1rem !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.nav-link.active {
+    color: var(--primary-color) !important;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.con_icono {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--dark-grey);
+}
+
+/* --- Service Card --- */
+.service-card {
+    background: var(--white);
+    padding: 35px 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    border-top: 5px solid var(--primary-color);
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.service-card .icon {
+    font-size: 3.5rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.service-card p {
+    color: var(--dark-grey);
+    margin-bottom: 20px;
+}
+
+.service-card .btn-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: gap 0.3s ease;
+}
+
+.service-card .btn-link:hover {
+    gap: 12px;
+}
+
+/* --- Review Card --- */
+.review-card {
+    background: var(--light-grey);
+    padding: 30px;
+    border-left: 5px solid var(--primary-color);
+    border-radius: 0 10px 10px 0;
+}
+
+.stars {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.review-card p {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.reviewer {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* --- Why Card --- */
+.why-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.why-card .icon {
+    font-size: 3rem;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+.why-card h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+/* --- Trust Badge --- */
+.trust-badge {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary-color);
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.trust-badge i {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+
+/* --- Certification Badge --- */
+.cert-badge {
+    background: var(--light-grey);
+    padding: 30px;
+    border-radius: 15px;
+    width: 220px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.cert-badge i {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.cert-badge h4 {
+    color: var(--primary-color);
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* --- CTA Buttons --- */
+.btn-cta {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 15px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.btn-cta:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    color: var(--white);
+}
+
+.btn-cta-secondary {
+    background: var(--white);
+    color: var(--primary-color);
+}
+
+/* --- Footer --- */
+footer {
+    background: var(--dark-grey);
+    color: var(--light-grey);
+    padding: 50px 0 20px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-section h3 {
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: var(--light-grey);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: var(--secondary-color);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-item i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+/* --- Appointment Form Section --- */
+.appointment-section {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #0066b3 100%);
+    color: var(--white);
+}
+
+.appointment-section h2 {
+    color: var(--white);
+}
+
+.appointment-form {
+    background: var(--white);
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 30px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    animation: slideInRight 1s ease-out;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: var(--dark-grey);
+    margin-bottom: 8px;
+}
+
+.form-control {
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    padding: 12px 15px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0, 90, 156, 0.25);
+}
+
+.form-label {
+    color: #000;
+}
+
+/* Time Slots */
+.time-slots {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.time-slot {
+    background: #21a990;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.time-slot:hover {
+    background: var(--secondary-color);
+    color: var(--dark-grey);
+    border-color: var(--primary-color);
+}
+
+.time-slot.selected {
+    background: var(--primary-color);
+    color: var(--white);
+    border-color: var(--primary-color);
+}
+
+.time-slot.unavailable {
+    background: #e9ecef;
+    color: #6c757d;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background: var(--white);
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.testimonial-card {
+    background: var(--light-grey);
+    padding: 30px;
+    border-left: 5px solid var(--primary-color);
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+}
+
+.testimonial-card .author {
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 15px;
+    color: var(--primary-color);
+}
+
+.author .location {
+    font-weight: 400;
+    color: var(--dark-grey);
+}
+
+/* Video Section */
+.video-section {
+    text-align: center;
+}
+
+.video-wrapper {
+    margin: 40px auto;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.video-section p {
+    max-width: 700px;
+    margin: 20px auto 40px;
+}
+
+/* Gallery Section */
+.gallery {
+    background: var(--light-grey);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 90, 156, 0.9), transparent);
+    color: white;
+    padding: 40px 20px 20px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    font-weight: 600;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+/* --- Responsive Design --- */
+@media(max-width: 768px) {
+    .text_logo { font-size: 1rem; }
+    .logo_menu { height: 70px; }
+
+    .appointment-form {
+        padding: 30px 20px;
+    }
+
+    .time-slots {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+
+    .gallery-grid, .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+}

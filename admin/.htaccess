@@ -1,0 +1,11 @@
+# Protección adicional para admin
+<Files "*.php">
+    Order allow,deny
+    Allow from all
+</Files>
+
+# Bloquear acceso a archivos sensibles
+<Files "*.log">
+    Order allow,deny
+    Deny from all
+</Files>
